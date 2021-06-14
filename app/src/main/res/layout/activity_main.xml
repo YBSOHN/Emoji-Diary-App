@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/emoji">
+
+        <Button
+            android:id="@+id/mainBegin"
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/main_button_margin_bottom"
+            android:background="@drawable/yellow"
+            android:fontFamily="casual"
+            android:padding="@dimen/start_button"
+            android:text="@string/start"
+            android:textSize="@dimen/main_button_size"></Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/main_title_margin_top"
+            android:fontFamily="casual"
+            android:text="@string/app_name"
+            android:textSize="@dimen/main_title"
+            android:textStyle="bold"></TextView>
+
+</RelativeLayout>
+

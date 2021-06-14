@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellow">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/yellow2"
+        />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/rv_hello_marginbottom"
+        android:layout_marginLeft="@dimen/rv_hello_marginleft"
+        android:layout_marginTop="@dimen/rv_hello_margintop"
+        android:fontFamily="casual"
+        android:text="Emoji Diary"
+        android:textAllCaps="false"
+        android:textSize="@dimen/rv_hello_size" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/rv_plus_marginright"
+        android:layout_marginTop="@dimen/rv_plus_margintop"
+        android:textSize="@dimen/rv_plus_textsize"
+        android:text="@string/rv_plus"
+        android:layout_width="@dimen/rv_plus_width"
+        android:layout_height="@dimen/rv_plus_height"
+        android:background="@null"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/hello"
+        android:id="@+id/recycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+
+
+    </RelativeLayout>

@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellow">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/yellow"
+            android:id="@+id/addnew_emoticonlayout"
+            android:onClick="layoutClick">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/addnew_title_margin"
+                android:fontFamily="casual"
+                android:text="@string/addnew_title"
+                android:textSize="@dimen/addnew_title_size"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"/>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/gridlayout_marginbottom"
+                android:layout_marginLeft="@dimen/gridlayout_marginleft"
+                android:columnCount="5"
+                android:layout_gravity="center_horizontal">
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle0"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:layout_marginBottom="@dimen/togglebutton_margin_bottom"
+                    android:layout_marginRight="@dimen/togglebutton_marginright"
+                    android:background="@drawable/emoticon0"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle1"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:layout_marginRight="@dimen/togglebutton_marginright"
+                    android:background="@drawable/emoticon1"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle2"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:layout_marginRight="@dimen/togglebutton_marginright"
+                    android:background="@drawable/emoticon2"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle3"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:layout_marginRight="@dimen/togglebutton_marginright"
+                    android:background="@drawable/emoticon3"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle4"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:layout_marginRight="@dimen/togglebutton_marginright"
+                    android:background="@drawable/emoticon4"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+
+                    android:id="@+id/emoticonToggle5"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:layout_marginBottom="@dimen/togglebutton_margin_bottom"
+                    android:background="@drawable/emoticon5"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+
+                    android:id="@+id/emoticonToggle6"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:background="@drawable/emoticon6"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+
+                    android:id="@+id/emoticonToggle7"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:background="@drawable/emoticon7"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle8"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:background="@drawable/emoticon7"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle9"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:background="@drawable/emoticon9"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle10"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:layout_marginBottom="@dimen/togglebutton_margin_bottom"
+                    android:background="@drawable/emoticon10"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle11"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:background="@drawable/emoticon11"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle12"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:background="@drawable/emoticon12"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle13"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:background="@drawable/emoticon13"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle14"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:background="@drawable/emoticon14"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle15"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:background="@drawable/emoticon15"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle16"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:background="@drawable/emoticon16"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle17"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:background="@drawable/emoticon17"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle18"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:background="@drawable/emoticon18"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/emoticonToggle19"
+                    android:layout_width="@dimen/togglebutton_size"
+                    android:layout_height="@dimen/togglebutton_size"
+                    android:background="@drawable/emoticon19"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+            </GridLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/yellow"
+            android:id="@+id/addnew_activitylayout"
+            android:onClick="layoutClick">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What did you do today?"
+                android:textSize="25dp"
+                android:layout_margin="30dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="casual"
+                android:textStyle="bold"/>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:columnCount="4"
+                android:layout_gravity="center_horizontal">
+
+                <ToggleButton
+                    android:id="@+id/activityToggle0"
+                    android:background="@drawable/activity0"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn=""
+                    />
+
+                <ToggleButton
+                    android:id="@+id/activityToggle1"
+                    android:background="@drawable/activity1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="30dp"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn=""
+                    />
+
+                <ToggleButton
+                    android:id="@+id/activityToggle2"
+                    android:background="@drawable/activity2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="30dp"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn=""
+                    />
+
+                <ToggleButton
+                    android:id="@+id/activityToggle3"
+                    android:background="@drawable/activity3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="30dp"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn=""
+                    />
+
+                <ToggleButton
+                    android:id="@+id/activityToggle4"
+                    android:background="@drawable/activity4"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn=""
+                    />
+
+                <ToggleButton
+                    android:id="@+id/activityToggle5"
+                    android:background="@drawable/activity5"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn=""
+                    />
+
+                <ToggleButton
+                    android:id="@+id/activityToggle6"
+                    android:background="@drawable/activity6"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn=""
+                    />
+                <ToggleButton
+                    android:id="@+id/activityToggle7"
+                    android:background="@drawable/activity7"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn=""
+                    />
+
+                <ToggleButton
+                    android:id="@+id/activityToggle8"
+                    android:background="@drawable/activity8"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn=""
+                    />
+                <ToggleButton
+                    android:id="@+id/activityToggle9"
+                    android:background="@drawable/activity9"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn=""
+                    />
+
+                <ToggleButton
+                    android:id="@+id/activityToggle10"
+                    android:background="@drawable/activity10"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn=""
+                    />
+                <ToggleButton
+                    android:id="@+id/activityToggle11"
+                    android:background="@drawable/activity11"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn=""
+                    />
+
+                <ToggleButton
+                    android:id="@+id/activityToggle12"
+                    android:background="@drawable/activity12"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn=""
+                    />
+
+                <ToggleButton
+                    android:id="@+id/activityToggle13"
+                    android:background="@drawable/activity13"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn=""
+                    />
+
+                <ToggleButton
+                    android:id="@+id/activityToggle14"
+                    android:background="@drawable/activity14"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn=""
+                    />
+
+
+                <ToggleButton
+                    android:id="@+id/activityToggle15"
+                    android:background="@drawable/activity15"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn=""
+                    />
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/addnew_weatherLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/yellow"
+            android:orientation="vertical"
+            android:onClick="layoutClick">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:fontFamily="casual"
+                android:text="What's today's weather?"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:columnCount="3">
+
+                <ToggleButton
+                    android:id="@+id/weatherToggle0"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="50dp"
+                    android:background="@drawable/weather2"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/weatherToggle1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="50dp"
+                    android:background="@drawable/weather0"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/weatherToggle2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/weather1"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/weatherToggle3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/weather3"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/weatherToggle4"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/weather4"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/weatherToggle5"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/weather5"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/weatherToggle6"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/weather6"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/weatherToggle7"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/weather7"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ToggleButton
+                    android:id="@+id/weatherToggle8"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/weather8"
+                    android:onClick="emoticonToggle"
+                    android:textOff=""
+                    android:textOn="" />
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+
+            android:id="@+id/newAddNext"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@mipmap/ic_arrow_forward_black_48dp" />
+
+        <Button
+            android:id="@+id/newAddPrev"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@mipmap/ic_arrow_back_black_36dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

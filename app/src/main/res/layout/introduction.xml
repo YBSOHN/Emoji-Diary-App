@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellow">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1, 2">
+
+        <TableRow android:padding="@dimen/tablerow_padding">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:fontFamily="casual"
+                android:text="@string/name"
+                android:textSize="@dimen/intro_textsize"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:inputType="textPersonName" />
+
+        </TableRow>
+
+        <TableRow android:padding="@dimen/tablerow_padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_span="1"
+                android:fontFamily="casual"
+                android:text="@string/gender"
+                android:textSize="@dimen/intro_textsize"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="casual"
+                android:text="@string/gender_male" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="@string/gender_female" />
+
+        </TableRow>
+
+        <TableRow android:padding="@dimen/tablerow_padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:fontFamily="casual"
+                android:text="@string/age"
+                android:textSize="@dimen/intro_textsize"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:inputType="number" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/introDone"
+        android:layout_width="@dimen/intro_button_width"
+        android:layout_height="@dimen/intro_button_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/intro_button_margintop"
+        android:background="@null"
+        android:fontFamily="casual"
+        android:textSize="20dp"
+        android:text="@string/finish_button" />
+
+</LinearLayout>

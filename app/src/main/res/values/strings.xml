@@ -1,0 +1,27 @@
+<resources>
+
+    //Activity Main//
+    <string name="start">Begin</string>
+    <string name="app_name">Emoji Diary</string>
+
+    //Introduction//
+    <string name="name">Name: </string>
+    <string name="age">Age: </string>
+    <string name="gender">Gender: </string>
+    <string name="finish_button">Done</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+
+    //Home//
+    <string name="home_feeling">Today feeling: </string>
+
+    //Add new//
+    <string name="addnew_title">How are you feeling today?</string>
+    <string name="addnew_button_done">Done</string>
+    <string name="addnew_button_back">Back</string>
+
+    //Recycle View//
+    <string name="rv_hello">Hello </string>
+    <string name="rv_plus">+</string>
+
+</resources>

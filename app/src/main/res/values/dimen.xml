@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><dimen name="main_title_margin_top">100dp</dimen>
+
+    //Activity Main//
+    <dimen name="main_button_margin_bottom">130dp</dimen>
+    <dimen name="start_button">20dp</dimen>
+    <dimen name="main_title">40dp</dimen>
+    <dimen name="main_button_height">62dp</dimen>
+    <dimen name="main_button_width">100dp</dimen>
+    <dimen name="main_button_size">20dp</dimen>
+
+    //Introduction//
+    <dimen name="into_padding">30dp</dimen>
+    <dimen name="intro_button_height">50dp</dimen>
+    <dimen name="intro_button_width">100dp</dimen>
+    <dimen name="tablerow_padding">30dp</dimen>
+    <dimen name="intro_button_margintop">50dp</dimen>
+    <dimen name="intro_textsize">23dp</dimen>
+    <dimen name="intro_gender_marginleft">20dp</dimen>
+
+    //Home//
+    <dimen name="home_marginleft">50dp</dimen>
+    <dimen name="home_margintop">10dp</dimen>
+    <dimen name="home_calender_margintop">20dp</dimen>
+    <dimen name="home_marginbottom">40dp</dimen>
+    <dimen name="home_feeling_size">15dp</dimen>
+
+    //Recycle View//
+    <dimen name="rv_plus_marginright">20dp</dimen>
+    <dimen name="rv_plus_margintop">10dp</dimen>
+    <dimen name="rv_plus_textsize">30dp</dimen>
+    <dimen name="rv_plus_width">30dp</dimen>
+    <dimen name="rv_plus_height">30dp</dimen>
+    <dimen name="rv_hello_size">40dp</dimen>
+    <dimen name="rv_hello_margintop">15dp</dimen>
+    <dimen name="rv_hello_marginleft">10dp</dimen>
+    <dimen name="rv_hello_marginbottom">50dp</dimen>
+
+    //Add New//
+    <dimen name="togglebutton_size">50dp</dimen>
+    <dimen name="togglebutton_margin_bottom">20dp</dimen>
+    <dimen name="togglebutton_marginright">20dp</dimen>
+    <dimen name="addnew_title_margin">30dp</dimen>
+    <dimen name="addnew_title_size">25dp</dimen>
+    <dimen name="gridlayout_marginbottom">30dp</dimen>
+    <dimen name="gridlayout_marginleft">10dp</dimen>
+    <dimen name="addnew_button_width">60dp</dimen>
+    <dimen name="addnew_button_height">50dp</dimen>
+    <dimen name="addnew_button_marginleft">20dp</dimen>
+    <dimen name="addnew_button_marginright">30dp</dimen>
+    <dimen name="addnew_button_margintop">20dp</dimen>
+    <dimen name="addnew_button_marginbottom">20dp</dimen>
+
+</resources>
